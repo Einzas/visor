@@ -1,0 +1,97 @@
+<html lang="en" class="h-100">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+
+        <!-- favicon web -->
+    <link rel="icon" href="logo.png" type="image/png" sizes="180x180">
+
+
+    <!-- Custom styles for this template -->
+    <title>Inicio</title>
+</head>
+
+<!-- Nav Bar opaco -->
+
+<body class="d-flex h-100 text-center text-bg-dark">
+
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+        <header class="mb-auto">
+            <div>
+                
+                <nav class="nav nav-masthead justify-content-center float-end pt-2">
+                    
+                    <h3 class="float-md-start pd-5 mb-2"> <img src="img/QH_HORIZONTAL-01.png"
+                        class="  rounded shadow-xl img-fluid pb-2" style="width: 180px; filter: brightness(1.2);"
+                        alt="">
+                </h3>
+                </nav>
+            </div>
+        </header>
+
+
+        <main class="px-3">
+            <h1>Sistema Catastral.</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum quam architecto ipsam
+                deserunt minus reiciendis, animi minima eligendi vero consequuntur pariatur, labore tempore. Vitae dicta
+                velit, facere deleniti in illum?.</p>
+            <p class="lead">
+                <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Iniciar Sesión</a>
+            </p>
+        </main>
+
+        <footer class="mt-auto text-white-50">
+            <p> <a href="#" class="text-white">Sefaks Solutions&copy;</a>
+        </footer>
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title text-dark fs-5" id="exampleModalLabel"><img
+                                src="img/QH_HORIZONTAL-01.png" class="  rounded shadow-xl img-fluid pb-2"
+                                style="width: 180px; filter: brightness(1.2);" alt="">Login</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-dark">
+                        <form action="" method="post" id="formulario">
+                            <div class="mb-3">
+                                <label for="usuario_login" class="form-label">Usuario</label>
+                                <input type="text" class="form-control" id="usuario_login" name="usuario_login"
+                                    aria-describedby="emailHelp" required minlength="4">
+                                <div id="emailHelp" class="form-text">No difundas tu credenciales!
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <label for="usuario_clave" class="form-label">Contraseña</label>
+                                <input type="password" class="form-control" id="usuario_clave" required minlength="4"
+                                    maxlength="16" name="usuario_clave">
+                            </div>
+
+                            <button type="submit" class="btn btn-primary">Iniciar Sesión</button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="main.js"></script>
+
+</body>
+
+</html>
